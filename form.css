@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    margin-top: 5px;
+}
+
+.main{
+    min-width: 400px;
+    margin-inline: auto;
+    border: 3px solid rgb(216, 216, 216);
+    padding-block: 40px;
+    padding-inline: 20px;
+    font-size: large;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1{
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+}
+
+.gender input{
+    width: fit-content;
+    margin-inline: 10px
+}
+
+textarea{
+    width: 100%;
+}
+
+select {
+    width: 100%;
+    padding-block: 10px;
+    padding-inline: 10px;
+    background-color: white;
+    border: 1px solid gray;
+    outline: 0;
+}
+
+button {
+    width: 100%;
+    background-color: rgb(176, 1, 1);
+    padding-block: 10px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+/* .login{
+    font-size: small;
+} */
